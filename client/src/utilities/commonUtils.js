@@ -1,7 +1,10 @@
 import Home from '../portfoliocontainer/Home/home'
 import AboutMe from '../portfoliocontainer/AboutMe/AboutMe';
 import Resume from '../portfoliocontainer/Resume/Resume';
+<<<<<<< HEAD
 import Testimonial from '../portfoliocontainer/Testimonial/Testimonial';
+=======
+>>>>>>> c920e35222de94462fe6f771dc53a4aa2b4bfdfe
 
 export const TOTAL_SCREENS = [
     {
@@ -16,10 +19,13 @@ export const TOTAL_SCREENS = [
         screen_name: "Resume",
         component: Resume,
     },
+<<<<<<< HEAD
     {
         screen_name: "Testimonial",
         component: Testimonial,
     },
+=======
+>>>>>>> c920e35222de94462fe6f771dc53a4aa2b4bfdfe
 ];
 
 export const GET_SCREEN_INDEX = (screen_name)=>{
